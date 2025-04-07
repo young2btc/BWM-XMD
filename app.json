@@ -23,8 +23,8 @@
 "AUTO_SAVE_CONTACTS":
     {
       "description":"Enter yes for your bot to auto save numbers",
-      "value":"no",
-      "required":false
+      "value":"yes",
+      "required": true 
     },
 "AUTO_REACT_STATUS":
     {
@@ -59,13 +59,13 @@
     }, "AUTO_DOWNLOAD_STATUS":
     {
       "description":"You status will be sending status to your inbox automatically (type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
+      "value":"yes",
       "required":false
     },
     "AUTO_READ":
     {
       "description":"Your contact  will be reading messages automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value":"no",
+      "value":"yes",
       "required":false   
       },
      "PM_PERMIT" :
@@ -78,8 +78,8 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"BWM-XMD",
-      "required":false
+      "young2btc-whatsappbot",
+      "required": true 
 
     } ,
      "BOT_MENU_LINKS" : {
@@ -100,13 +100,13 @@
     "description": "insert your heroku api-key (this is optionnal)",
      "required" :false
     },
-  "HEROKU_APP_NAME": {
+  "HEROKU_APP_NAME": {emmanuel ehisuoria ojie 
     "description": "insert your heroku APP NAME (this is optionnal)",
      "required" :false
     }  
 	  ,
     "NUMERO_OWNER":
-    {
+    {2349033817902
       
     "description":"Enter here the number that is hosting the bot Eg, 254xxxxxxx",   
       "value":"",
@@ -114,7 +114,7 @@
       
     },
     "OWNER_NAME":
-    {
+    {young2btc
     
     "desc": "Owner name",
     "required": false,
@@ -139,12 +139,12 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"2",
     "required": false
   },
   "ANTIDELETE" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "yes",
+    "value": "no",
         "required": false
   }
   },
