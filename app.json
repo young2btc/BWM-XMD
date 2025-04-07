@@ -29,7 +29,7 @@
 "AUTO_REACT_STATUS":
     {
       "description":"Enter yes for your bot to auto react status",
-      "value":"yes",
+      "value":"no",
       "required":false
     },
 "ANTICALL":
@@ -60,7 +60,7 @@
     {
       "description":"You status will be sending status to your inbox automatically (type yes to active or no to deactive ; don't write in capital letter)",
       "value":"yes",
-      "required":false
+      "required": true 
     },
     "AUTO_READ":
     {
@@ -100,8 +100,8 @@
     "description": "insert your heroku api-key (this is optionnal)",
      "required" :false
     },
-  "HEROKU_APP_NAME": {emmanuel ehisuoria ojie 
-    "description": "insert your heroku APP NAME (this is optionnal)",
+  "HEROKU_APP_NAME": {
+    "description": "insert your heroku APP NAME (emmanuel ehisuoria ojie)",
      "required" :false
     }  
 	  ,
@@ -114,11 +114,11 @@
       
     },
     "OWNER_NAME":
-    {young2btc
+    {
     
     "desc": "Owner name",
     "required": false,
-    "value": "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬"
+    "value": "young2btc"
   },
     "SESSION_ID":{
     "description":"put your session ID , the code you received from from ibrahim adams site",   
